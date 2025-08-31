@@ -1,0 +1,27 @@
+POST http://localhost:3333/courses
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjZDVmNDkyYi1lODI0LTQzYjEtOWRhOC0xZjBlZmZmMTdhNmUiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTc1NjY3MzUwNn0.cPfvNDqBV-XyM6IIz9fvRtsRs2TGm6L1_nVPgLWALD0
+
+{
+  "title": "Curso de Java"
+}
+
+###
+
+GET http://localhost:3333/courses
+
+###
+
+GET http://localhost:3333/courses/f6d26249-5ae7-4c57-8a5e-55803afe1cbb
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjZDVmNDkyYi1lODI0LTQzYjEtOWRhOC0xZjBlZmZmMTdhNmUiLCJyb2xlIjoic3R1ZGVudCIsImlhdCI6MTc1NjY3MTU2OH0.7ZR4Gw46kIDEQ81wfcqrKe4hdwJyuVvcE4l7iksiZ9c
+
+
+### 
+
+POST http://localhost:3333/sessions
+Content-Type: application/json
+
+{
+  "email": "Felipe74@live.com",
+  "password": "123456"
+}
