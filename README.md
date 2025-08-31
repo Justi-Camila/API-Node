@@ -26,7 +26,7 @@
  
  1. **Clone o repositório:**
     ```bash
-    git clone <url-do-seu-repositorio>
+    git clone https://github.com/Justi-Camila/API-Node.git
     cd api-node
     ```
  
